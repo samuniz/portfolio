@@ -1,9 +1,107 @@
+header{
+    background: url("../images/hero-image.png"); 
+    background-size: cover;
+    height: auto;
+}
+ header h1{
+    font-family: 'Roboto Slab', serif;
+    color: #bdbf09; 
+    font-size: 60px;
+    margin: 0; 
+    padding: 18% 18% 0 18%;
+    text-align: center; 
+ }
 
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP|Playfair+Display|Zhi+Mang+Xing&display=swap');
+ h2{
+    font-family: 'Roboto', sans-serif;
+    color: #095156; 
+    font-size: 48px; 
+    text-align: center;
+    padding: 0 18% 18% 18%; 
+ }
 
+ h3{
+    font-family: 'Roboto Slab', serif;
+    color: #095156; 
+    font-weight: bold; 
+    font-size: 36px;
+    text-align: center;
+    padding-top: 2%; 
+ }
+
+ .card-wrapper{
+     display: flex; 
+     flex-flow: row wrap;
+     justify-content: space-around;  
+    margin: 10%;
+ }
+
+ .card{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+ }
+
+ .btn{
+    background: #095156;
+ }
+
+ .aboutMe{
+     background: #087e8b;
+     color: #fff; 
+ }
+ .aboutMe h3{
+    color: #fff; 
+ }
+ .aboutMe .card-wrapper{
+     justify-content: center;
+     padding: 4%;
+     margin: 0; 
+    
+ }
+ .aboutMe .card{
+     border: none; 
+     margin-bottom: 5%;      
+     background: #087e8b;
+     font-family: 'Roboto', sans-serif;
+     padding: 0 5%;    
+ }
+
+ #resume{
+    color: #fff; 
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+ }
+
+ .contact{
+   background: #095156; 
+   color: #fff; 
+   text-align: center;
+   font-size: 24px; 
+   padding-bottom: 5%; 
+ }
+ .contact h3{
+     color: #fff; 
+ }
+
+ #email{
+    color: #fff; 
+    font-size: 24px; 
+ }
+
+ .icons{
+     margin-top: 1%; 
+ }
+
+ footer{
+    background: #095156; 
+   color: #fff; 
+   text-align: center;
+
+ }
+ 
 /* Universal Css*/
 
-body{
+/* body{
     color: #08528b; 
     font-family: 'Noto Sans JP', sans-serif;
     background: url("../images/background.png");   
@@ -39,7 +137,7 @@ img{
 
 /*Portfolio*/
 
-.content-wrapper{
+/* .content-wrapper{
     display: flex; 
     flex-flow: row wrap;
     justify-content: space-around; 
@@ -88,5 +186,4 @@ img{
     background-color: #08528b;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
-}
-
+} */
