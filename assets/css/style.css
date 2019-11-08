@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP|Playfair+Display|Zhi+Mang+Xing&display=swap');
+
+/* Universal Css*/
+
+body{
+    color: #08528b; 
+    font-family: 'Noto Sans JP', sans-serif;
+    background: url("../images/background.png");   
+    margin: auto; 
+}
+
+
+.navbar-brand {
+    color: #ffffff;
+    background-color: #087e8b;
+    font-size: 35px; 
+    font-family: 'Zhi Mang Xing', cursive;
+    border-radius: 12px;
+}
+
+a {
+    color: #08528b; 
+    text-decoration: none; 
+}
+h2{
+    text-align: center;
+    font-weight: bold;   
+    font-size: 30px; 
+    font-family: 'Playfair Display', serif; 
+}
+h2{
+    padding-top: 10%; 
+}
+img{
+    padding-top: 5%;    
+}
+
+
+/*Portfolio*/
+
+.content-wrapper{
+    display: flex; 
+    flex-flow: row wrap;
+    justify-content: space-around; 
+}    
+
+.projects{
+    width: 25%;           
+    margin: 3px 15px; 
+    
+}
+
+.projects img{
+    width: 100%;   
+    border: solid 2px grey; 
+    height: 220px;  
+  
+}
+.link{
+    margin-top: 75px;
+    width: 64.5%; 
+    position: absolute;
+    background: #087e8b; 
+    text-align: center; 
+    border: solid 2px grey; 
+}
+.link a{
+    width: inherit; 
+    color: white; 
+    font-size: 1em;    
+}
+
+
+#submit{
+    background:#087e8b;     
+    color: #ffffff; 
+    border: solid 3px grey; 
+    cursor: pointer;
+    box-shadow: 0 5px #999;
+}
+
+#submit:hover{
+    background: hsl(186, 89%, 18%)
+}
+
+#submit:active{
+    background-color: #08528b;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
