@@ -39,6 +39,11 @@ header{
  .card{
     font-family: 'Roboto', sans-serif;
     text-align: center;
+    margin-bottom: 2%;  
+ }
+
+ .card-img-top{
+     height: 150px; 
  }
 
  .btn{
