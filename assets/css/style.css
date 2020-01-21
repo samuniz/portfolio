@@ -1,3 +1,4 @@
+
 header{
     background: url("../images/hero-image.png"); 
     background-size: cover;
@@ -42,8 +43,11 @@ header{
     margin-bottom: 2%;  
  }
 
- .card-img-top{
-     width: 300px;  
+ .card-img{
+    height: 80%; 
+    width: 90%; 
+    margin: 2%; 
+     /* width: 300px;   */
  }
  
  .btn{
@@ -58,11 +62,18 @@ header{
     color: #fff; 
  }
  .aboutMe .card-wrapper{
-     /* justify-content: center; */
-     /* padding: 4%; */
+     justify-content: center; 
+     padding: 4%; 
      margin: 0; 
     
  }
+ .description{
+   color: #bdbf09; 
+   text-align: center;
+   margin-bottom: .5%; 
+   font-size: 25px; 
+}
+ 
  .aboutMe .card{
      border: none; 
      /* margin-bottom: 5%;       */
@@ -70,6 +81,8 @@ header{
      font-family: 'Roboto', sans-serif;
      /* padding: 0 5%;     */
  }
+
+
 
  #resume{
     color: #fff; 
@@ -98,18 +111,21 @@ header{
  }
 
  footer{
-    background: #095156; 
+   background: #095156; 
    color: #fff; 
    text-align: center;
-
+   margin: 0;
+   height: 100%; 
  }
- 
+ footer p{
+    margin: 0; 
+    padding: 1%
+ }
  .buttonDownload {
 	display: inline-block;
 	position: relative;
    padding: 10px 25px;
-   margin: auto 0 ; 
-  
+   margin: 0 0 2% 0 ; 
 	background-color: #bdbf09;
 	color: white;
   
