@@ -1,4 +1,18 @@
+nav{
+   background-color: #095156; 
+   font-family: 'Roboto Slab', serif;
+   position: fixed;
+   padding: 0 5%; 
+}
 
+nav .brand-logo{
+   color: #bdbf09; 
+   font-size: 1.5rem;
+   font-family: 'Fredericka the Great', cursive;
+}
+nav a{
+   text-decoration: none;
+}
 header{
     background: url("../images/hero-image.png"); 
     background-size: cover;
@@ -65,18 +79,18 @@ col {
     background: #095156;
  } */
 
- .projects{
+ #projects{
      background: #087e8b;
      color: #fff; 
  }
- .projects h3{
+ #projects h3{
     color: #bdbf09; 
  }
 
- .projects a{
+ #projects a{
 	background-color: #bdbf09;
  }
- .aboutMe .card-wrapper{
+ #aboutMe .card-wrapper{
      justify-content: center; 
      padding: 4%; 
      margin: 0; 
@@ -89,7 +103,7 @@ col {
    font-size: 25px; 
 }
  
- .aboutMe .card{
+ #aboutMe .card{
      border: none; 
      /* margin-bottom: 5%;       */
      background: #087e8b;
@@ -105,14 +119,14 @@ col {
     font-family: 'Roboto', sans-serif;
  }
 
- .contact{
+ #contact{
    background: #095156; 
    color: #fff; 
    text-align: center;
    font-size: 24px; 
    padding-bottom: 5%; 
  }
- .contact h3{
+ #contact h3{
      color: #fff; 
  }
 
@@ -140,8 +154,19 @@ col {
  }
  footer p{
     margin: 0; 
-    padding: 1%
+    padding: 1%; 
+    text-align: center;
+
  }
+
+#resume{
+   margin: 2.5%;
+   border-radius: 5%; 
+    width: 18%; 
+    font-size: 1rem;
+ }
+
+
  .buttonDownload {
 	display: inline-block;
 	position: relative;

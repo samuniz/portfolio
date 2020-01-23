@@ -9,6 +9,7 @@
   <meta name="theme-color" content="#fafafa">
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Condiment|Damion|Fredericka+the+Great&display=swap" rel="stylesheet">
   <!-- Place favicon.ico in the root directory -->
   <!-- jQuery uncompressed -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -30,25 +31,79 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!-- Compiled and minified CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css" rel="stylesheet"/>
+
 
   <!-- Compiled and minified JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js"></script>
 
 
   <!-- Css -->
   <link rel="stylesheet" href="assets/css/normalize.css">
   <link rel="stylesheet" href="assets/css/style.css">
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+  <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  <link href="https://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.css" rel="stylesheet"/>
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+  <script type="text/javascript" src="assets/javascript/script.js"></script> -->
+
+
 </head>
 
 
 <body>
 
+   <nav>
+    <div class="nav-wrapper">
+      <p class="brand-logo">Sabrina Shaget</p>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#aboutMe">About Me</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#aboutMe">About Me</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+   </nav>         
+
+           <!-- <nav>
+            <div class="nav-wrapper">
+                <a href="#!" class="brand-logo">Logo</a>
+                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="sass.html">Sass</a></li>
+                    <li><a href="badges.html">Components</a></li>
+                    <li><a href="collapsible.html">Javascript</a></li>
+                    <li><a href="mobile.html">Mobile</a></li>
+                </ul>
+                <ul class="side-nav" id="mobile-demo">
+                    <li><a href="sass.html">Sass</a></li>
+                    <li><a href="badges.html">Components</a></li>
+                    <li><a href="collapsible.html">Javascript</a></li>
+                    <li><a href="mobile.html">Mobile</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div> -->
   <header>
     <h1>Hi There! I'm Sabrina Shaget</h1>
     <h2>I'm a web developer and creative thinker located in the Philadelphia area.</h2>
   </header>
   <main>
-      <section class="projects">
+      <section id="projects">
       <h3> Projects </h3>
       <hr>
       <div>
@@ -139,7 +194,7 @@
 
     </section>
  
-  <section class="aboutMe">
+  <section id="aboutMe">
         <h3 id="aboutMe">About Me</h3>
         <hr>
           <p class="description">I'm a Full Stack web developer, passionate about creating useful and clean web
@@ -168,7 +223,7 @@
         </div>
       
     </section>
-<section class="contact">
+<section id="contact">
         <h3 class="card-title" id="#connect">Let's Connect</h3>
         <hr>
         <p class="phone"><i class="material-icons">phone_iphone</i>856-316-2098</p>
@@ -177,6 +232,12 @@
           <a href="https://github.com/samuniz"><img src="assets/images/github.png" /></a>
           <a href="https://www.linkedin.com/in/sabrina-shaget-014b6913b/"><img src="assets/images/linkedin.png" /></a>
         </div>
+
+          <!-- <a  id="resume" href="assets/documents/sabrina-resume.pdf" class="buttonDownload">DOWNLOAD MY RESUME</a> -->
+
+     
+        
+
       </div>
 
   </section>
@@ -185,6 +246,13 @@
   <footer>
     <p>copiright 2019 | Sabrina Shaget</p>
   </footer>
-</body>
+<!-- </body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.2/js/materialize.min.js"></script>
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+
 
 </html>
