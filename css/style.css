@@ -559,6 +559,7 @@ animation-delay: .8s;
 #project-section .project-gallery .single-img {
   position: relative;
   overflow: hidden;
+  height: 250px; 
 }
 #project-section .project-gallery .single-img .opacity {
   position: absolute;
