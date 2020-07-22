@@ -38,8 +38,8 @@
 /*(max-width: 991px)*/
 
 @media (min-width: 992px) and (max-width: 1199px) {
-  .theme-main-header .logo {width: 15%;}
-  .theme-main-menu .navbar-nav>li>a {padding: 9px 12px;}
+  .main-header .logo {width: 15%;}
+  .main-menu .navbar-nav>li>a {padding: 9px 12px;}
   .theme-title p {width: 95%;}
   #our-client .client-slider p {width: 70%;}
   .recent-single-post .post {width: 75%;}
@@ -47,11 +47,11 @@
 /*(min-width: 992px) and (max-width: 1199px)*/
 
 @media (min-width: 768px) and (max-width: 991px) {
-  .theme-main-header .logo {width: 22%; margin: 0 auto;float:none; display: block;}
-  .theme-main-menu.navbar {float:none;margin-top: 30px;}
-  .theme-main-menu .navbar-nav>li>a {padding: 9px 8px;}
-  .theme-main-header.fixed .logo {display: none;}
-  .theme-main-header.fixed .theme-main-menu.navbar {margin-top: 0;}
+  .main-header .logo {width: 22%; margin: 0 auto;float:none; display: block;}
+  .main-menu.navbar {float:none;margin-top: 30px;}
+  .main-menu .navbar-nav>li>a {padding: 9px 8px;}
+  .main-header.fixed .logo {display: none;}
+  .main-header.fixed .main-menu.navbar {margin-top: 0;}
   #project-section .project-gallery .grid-item,
   #team-section .team-member-wrapper .float-left {width: 50%;}
   #our-client .client-slider p {width: 90%;}
@@ -61,14 +61,14 @@
 
 @media (max-width: 767px) {
   .scroll-top {bottom: 10px; right:5px;}
-  .theme-main-header {padding-top: 15px;}
-  .theme-main-header .logo {position: absolute;top:15px;left:15px;z-index: 99;}
-  .theme-main-menu.navbar {float:none;width: 100%;}
-  .theme-main-header.fixed {background: #1e1e1e;max-height: 100%;overflow-y:auto;}
-  .theme-main-menu .navbar-collapse {padding: 0 15px;box-shadow: none;border:none;background: #1e1e1e;margin-top: 15px;}
-  .theme-main-header li.dropdown-holder .fa {display: block;}
-  .theme-main-menu .navbar-nav>li>a {padding: 0;line-height: 44px;}
-  .theme-main-menu.navbar .nav>li ul.sub-menu {
+  .main-header {padding-top: 15px;}
+  .main-header .logo {position: absolute;top:15px;left:15px;z-index: 99;}
+  .main-menu.navbar {float:none;width: 100%;}
+  .main-header.fixed {background: #1e1e1e;max-height: 100%;overflow-y:auto;}
+  .main-menu .navbar-collapse {padding: 0 15px;box-shadow: none;border:none;background: #1e1e1e;margin-top: 15px;}
+  .main-header li.dropdown-holder .fa {display: block;}
+  .main-menu .navbar-nav>li>a {padding: 0;line-height: 44px;}
+  .main-menu.navbar .nav>li ul.sub-menu {
     position: static;
     width: 100%;
     opacity: 1;
@@ -92,7 +92,7 @@
   #service-section .row [class*="col-"],#skill-section [class*="col-"],
   #pricing-section [class*="col-"],#contact-section .send-message,
   #contact-section .contact-address-content [class*="col-"],
-  #blog-section [class*="col-"],.theme-main-header .container,
+  #blog-section [class*="col-"],.main-header .container,
   .blog-details-page .p-fix {padding-left: 0;padding-right: 0;}
   
 }
