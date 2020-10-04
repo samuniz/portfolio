@@ -154,7 +154,7 @@ function mixitupGallery () {
 
 
 
-// //Contact Form Validation
+//Contact Form Validation
 // function contactFormValidation () {
 //   var activeForm = $('.form-validation');
 //   if(activeForm.length){
@@ -245,12 +245,6 @@ jQuery(document).on('ready', function() {
      BannerVideoSlider ();
      onePageFixedNav();
      mixitupGallery ();
-     bootstrapProgress ();
-     clientSlider ();
-     partnersLogo ();
-     contactFormValidation ();
-     closeSuccessAlert ();
-     cladendar ();
      subMenuExpend ()
   })(jQuery);
 });
