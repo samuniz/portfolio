@@ -504,7 +504,7 @@ animation-delay: .8s;
   padding: 118px 23px 65px 23px;
   overflow: hidden;
 }
-#service-section .single-service-content p {
+#service-section .single-service-content ul li {
   -webkit-transition-delay: 0.3s; /* Safari */
   transition-delay: 0.3s;
   opacity: 0;
@@ -536,7 +536,7 @@ animation-delay: .8s;
 #service-section .single-service-content:hover .icon-heading {
   top:-10px;
 }
-#service-section .single-service-content:hover p {
+#service-section .single-service-content:hover ul li {
   opacity: 1;
   color: #fff;
   -webkit-transform: translate3D(0,0,0);
