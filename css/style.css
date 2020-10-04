@@ -18,7 +18,7 @@
 /*   04 - Theme Header */
 /*   05 - Theme Main Banner */
 /*   06 - About section */
-/*   07 - Service section  */
+/*   07 - skills section  */
 /*   08 - Project section  */
 /*   09 - Page Middle Banner  */
 /*   10 - Team Section  */
@@ -221,7 +221,7 @@ animation-delay: .8s;
        -o-transition: all .3s ease-in-out;
           transition: all .3s ease-in-out;
  }
-.tran4s,#service-section .single-service-content p,#project-section .project-gallery .single-img .opacity ul,
+.tran4s,#skills-section .single-skills-content p,#project-section .project-gallery .single-img .opacity ul,
 #project-section .project-gallery .single-img .opacity h6 a {
   -webkit-transition: all .4s ease-in-out;
      -moz-transition: all .4s ease-in-out;
@@ -261,8 +261,8 @@ animation-delay: .8s;
 }
 .main-header .container #home:hover, .p-color,.theme-main-menu .navbar-nav>li.active>a,
 .theme-main-menu .navbar-nav>li>a:hover,#about-us .single-about-content:hover h5 a,
-#service-section .single-service-content:hover .icon-heading .icon,
-#service-section .single-service-content:hover .icon-heading h6 a,
+#skills-section .single-skills-content:hover .icon-heading .icon,
+#skills-section .single-skills-content:hover .icon-heading h6 a,
 #pricing-section .single-price-table a:hover,#blog-section .single-news-item .img a,
 #blog-section .single-news-item:hover .post p a,#blog-section .single-news-item .post h6:hover a,
 #contact-section .contact-address-content .left-side ul li:hover .icon,
@@ -276,7 +276,7 @@ animation-delay: .8s;
   background:#e299c2;
 }
 .banner .project-button,#about-us .icon,#about-us .single-about-content a.more,
-#service-section .single-service-content:hover,#project-section .project-menu ul li.active,
+#skills-section .single-skills-content:hover,#project-section .project-menu ul li.active,
 #project-section .project-menu ul li:hover,.page-middle-banner .opacity a,
 #team-section .team-member-wrapper .single-team-member .img .opacity h4,#pricing-section .single-price-table a,
 #our-client .owl-theme .owl-dots .owl-dot.active span, #our-client .owl-theme .owl-dots .owl-dot:hover span,
@@ -479,32 +479,32 @@ animation-delay: .8s;
 /*
 
 ====================================================================
-  Service section
+  Skills section
 ====================================================================
 
  ***/
-#service-section {
+#skills-section {
   background: #232a34;
   padding-bottom: 80px;
 }
-#service-section .theme-title h2,
-#service-section .theme-title p {
+#skills-section .theme-title h2,
+#skills-section .theme-title p {
   color:#fff;
 }
-#service-section .row {
+#skills-section .row {
   margin: 50px 0 0 0;
 }
-#service-section .row [class*="col-"] {
+#skills-section .row [class*="col-"] {
   padding-top: 25px;
 }
-#service-section .single-service-content {
+#skills-section .single-skills-content {
   border:1px solid #808489;
   text-align: center;
   margin-bottom: 20px;
   padding: 118px 23px 65px 23px;
   overflow: hidden;
 }
-#service-section .single-service-content ul li {
+#skills-section .single-skills-content ul li {
   -webkit-transition-delay: 0.3s; /* Safari */
   transition-delay: 0.3s;
   opacity: 0;
@@ -514,29 +514,29 @@ animation-delay: .8s;
        -o-transform: translate3D(0,200px,0);
           transform: translate3D(0,200px,0);
 }
-#service-section .single-service-content .icon-heading {
+#skills-section .single-skills-content .icon-heading {
   position: absolute;
   width: 100%;
   left:0;
   right: 0;
   top:120px;
 }
-#service-section .single-service-content .icon-heading .icon {
+#skills-section .single-skills-content .icon-heading .icon {
   font-size: 48px;
   color:#808489;
   width: 80px;
   margin: 0 auto;
   background: #232a34;
 }
-#service-section .single-service-content .icon-heading a {
+#skills-section .single-skills-content .icon-heading a {
   color:#808489;
   text-transform: capitalize;
   margin-top: 33px;
 }
-#service-section .single-service-content:hover .icon-heading {
+#skills-section .single-skills-content:hover .icon-heading {
   top:-10px;
 }
-#service-section .single-service-content:hover ul li {
+#skills-section .single-skills-content:hover ul li {
   opacity: 1;
   color: #fff;
   -webkit-transform: translate3D(0,0,0);
@@ -853,15 +853,14 @@ animation-delay: .8s;
 
  ***/
 footer {
-  margin: 100px 0 0 0;
   background: #232a34;
-  padding: 60px 0 25px 0;
   text-align: center;
+  padding: 1.5%;
 }
 footer p {
   color:#fff;
   font-size: 15px;
-  margin-top: 50px;
+  /* margin-top: 20px; */
 }
 /*** 
 

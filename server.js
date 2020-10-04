@@ -154,62 +154,62 @@ function mixitupGallery () {
 
 
 
-//Contact Form Validation
-function contactFormValidation () {
-  var activeForm = $('.form-validation');
-  if(activeForm.length){
-    activeForm.validate({ // initialize the plugin
-      rules: {
-        Fname: {
-          required: true
-        },
-        Lname: {
-          required: true
-        },
-        email: {
-          required: true,
-          email: true
-        },
-        sub: {
-          required: true
-        },
-        message: {
-          required: true
-        }
-      },
-      submitHandler: function(form) {
-                $(form).ajaxSubmit({
-                    success: function() {
-                        $('.form-validation :input').attr('disabled', 'disabled');
-                        activeForm.fadeTo( "slow", 1, function() {
-                            $(this).find(':input').attr('disabled', 'disabled');
-                            $(this).find('label').css('cursor','default');
-                            $('#alert-success').fadeIn();
-                        });
-                    },
-                    error: function() {
-                        activeForm.fadeTo( "slow", 1, function() {
-                            $('#alert-error').fadeIn();
-                        });
-                    }
-                });
-            }
-        });
-  }
-}
+// //Contact Form Validation
+// function contactFormValidation () {
+//   var activeForm = $('.form-validation');
+//   if(activeForm.length){
+//     activeForm.validate({ // initialize the plugin
+//       rules: {
+//         Fname: {
+//           required: true
+//         },
+//         Lname: {
+//           required: true
+//         },
+//         email: {
+//           required: true,
+//           email: true
+//         },
+//         sub: {
+//           required: true
+//         },
+//         message: {
+//           required: true
+//         }
+//       },
+//       submitHandler: function(form) {
+//                 $(form).ajaxSubmit({
+//                     success: function() {
+//                         $('.form-validation :input').attr('disabled', 'disabled');
+//                         activeForm.fadeTo( "slow", 1, function() {
+//                             $(this).find(':input').attr('disabled', 'disabled');
+//                             $(this).find('label').css('cursor','default');
+//                             $('#alert-success').fadeIn();
+//                         });
+//                     },
+//                     error: function() {
+//                         activeForm.fadeTo( "slow", 1, function() {
+//                             $('#alert-error').fadeIn();
+//                         });
+//                     }
+//                 });
+//             }
+//         });
+//   }
+// }
 
-// Close suddess Alert
-function closeSuccessAlert () {
-  var closeButton = $ (".closeAlert");
-  if(closeButton.length) {
-      closeButton.on('click', function(){
-        $(".alert-wrapper").fadeOut();
-      });
-      closeButton.on('click', function(){
-        $(".alert-wrapper").fadeOut();
-      })
-  }
-}
+// // Close suddess Alert
+// function closeSuccessAlert () {
+//   var closeButton = $ (".closeAlert");
+//   if(closeButton.length) {
+//       closeButton.on('click', function(){
+//         $(".alert-wrapper").fadeOut();
+//       });
+//       closeButton.on('click', function(){
+//         $(".alert-wrapper").fadeOut();
+//       })
+//   }
+// }
 
 
 // Sticky header
